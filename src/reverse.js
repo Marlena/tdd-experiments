@@ -2,8 +2,10 @@
   'use strict'
   var reverser = (window.reverser = window.reverser || {});
 
-  function StringReverser(data){
-    this._data = data;
+  function StringReverser(source){
+
+
+    this._data = {data: source};
   }
 
   StringReverser.prototype.getString = function(){

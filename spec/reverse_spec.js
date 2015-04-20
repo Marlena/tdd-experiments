@@ -9,9 +9,9 @@
     beforeEach(function(){
       var StringReverser = reverser.StringReverser;
 
-      subject = new StringReverser({data: 'water'});
+      subject = new StringReverser('water');
     });
-    
+
     it ("should be a thing", function(){
       expect(subject).toEqual(jasmine.anything());
     });
