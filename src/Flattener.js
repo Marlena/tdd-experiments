@@ -1,10 +1,9 @@
 
- var experiment = (window.experiements = window.experiment || {});
 
- function Flattener(){
+ Flattener = function (){
   var data = 'data';
 };
 
 
- experiment.Flattener =  Flattener;
 
+module.exports = Flattener;
